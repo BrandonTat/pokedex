@@ -102,3 +102,50 @@ h3 {
   text-align: center;
   color: $black;
 }
+
+#index{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.pokelist{
+  width: 150px;
+  overflow: scroll;
+  height: 100vh;
+  list-style: none;
+}
+
+#detail{
+  border: 2px solid black;
+  height: auto;
+}
+
+#PokemonDetailContainer{
+  padding: 20px;
+  margin: 40px;
+  height: 90%;
+  width: 60%;
+  border: 5px solid black;
+  background-color: gray;
+  font: 30px;
+  color: black;
+}
+
+#PokemonDetailContainer li {
+  list-style: none;
+  vertical-align: baseline;
+}
+
+.pokeName{
+  font-size: 50px;
+}
+
+.img-container{
+  background-image: linear-gradient(215deg, rgb(212, 51, 22), rgb(255, 255,0));
+  width:auto;
+}
+
+#poke-image{
+  margin: 0 auto;
+}
